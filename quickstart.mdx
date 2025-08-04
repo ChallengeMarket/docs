@@ -1,80 +1,63 @@
 ---
-title: "Quickstart"
-description: "Start building awesome documentation in minutes"
+title: "How to Sign-Up"
+description: "This guide will help you connect to our platform quickly and easily using your crypto wallet."
 ---
 
-## Get started in three steps
+> Need help? We're available to guide you through the sign-up process on [Discord](https://discord.gg/fRFCPhHg).
 
-Get your documentation site running locally and make your first customization.
+## Step 1: Connect Your Wallet
 
-### Step 1: Set up your local environment
+Our platform supports a variety of crypto wallets for authentication:
 
-<AccordionGroup>
-  <Accordion icon="copy" title="Clone your docs locally">
-    During the onboarding process, you created a GitHub repository with your docs content if you didn't already have one. You can find a link to this repository in your [dashboard](https://dashboard.mintlify.com).
-    
-    To clone the repository locally so that you can make and preview changes to your docs, follow the [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) guide in the GitHub docs.
-  </Accordion>
-  <Accordion icon="rectangle-terminal" title="Start the preview server">
-    1. Install the Mintlify CLI: `npm i -g mint`
-    2. Navigate to your docs directory and run: `mint dev`
-    3. Open `http://localhost:3000` to see your docs live!
-    
-    <Tip>Your preview updates automatically as you edit files.</Tip>
-  </Accordion>
-</AccordionGroup>
+1. Visit our homepage
+2. Click the "Connect Wallet" button in the top right corner
+3. Choose your preferred wallet provider:
+   - MetaMask
+   - Rainbow Wallet
+   - Coinbase Wallet
+   - Ledger Wallet
+   - Rabby Wallet
+   - WalletConnect (for other compatible wallets)
+4. Follow your wallet's instructions to complete the connection
 
-### Step 2: Deploy your changes
+## Step 2: Sign the Authentication Message
 
-<AccordionGroup>
-  <Accordion icon="github" title="Install our GitHub app">
-    Install the Mintlify GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app).
-    
-    Our GitHub app automatically deploys your changes to your docs site, so you don't need to manage deployments yourself.
-</Accordion>
-<Accordion icon="palette" title="Update your site name and colors">
-    For a first change, let's update the name and colors of your docs site.
+After connecting your wallet, you'll need to verify ownership:
 
-    1. Open `docs.json` in your editor.
-    2. Change the `"name"` field to your project name.
-    3. Update the `"colors"` to match your brand.
-    4. Save and see your changes instantly at `http://localhost:3000`.
+1. A signature request will appear in your wallet
+2. The message will look like: `Login to ChallengeMarket at [timestamp]`
+3. Review the message to ensure it's from our platform
+4. Sign the message to authenticate (this doesn't cost any gas fees)
 
-    <Tip>Try changing the primary color to see an immediate difference!</Tip>
-  </Accordion>
-</AccordionGroup>
+> **Note**: Signing this message proves you own the wallet without giving our platform any control over your funds.
 
-### Step 3: Go live
+## Step 3: Manage Your Profile
 
-<Accordion icon="rocket" title="Publish your docs">
-  1. Commit and push your changes.
-  2. Your docs will update and be live in moments!
-</Accordion>
+Once authenticated, you can customize your profile:
 
-## Next steps
+1. Click on your profile icon in the navigation bar
+2. Select "Edit Profile" from the dropdown menu
+3. In the preferences modal, you can update:
+   - Display Name: Choose how you'll be known on the platform
+   - Avatar URL: Add a profile picture by providing an image URL
+   - Email: Add your email for notifications (optional)
+4. Click "Save Changes" to update your profile
 
-Now that you have your docs running, explore these key features:
+## Supported Networks
 
-<CardGroup cols={2}>
+Our platform supports multiple blockchain networks, including:
+- Ethereum Mainnet
+- Polygon
+- Base
+- And various testnets
 
-<Card title="Write Content" icon="pen-to-square" href="/essentials/markdown">
-  Learn MDX syntax and start writing your documentation.
-</Card>
+## After Signing Up
 
-<Card title="Customize style" icon="palette" href="/essentials/settings">
-  Make your docs match your brand perfectly.
-</Card>
+Once you've created your account, you'll have access to all platform features including:
 
-<Card title="Add code examples" icon="square-code" href="/essentials/code">
-  Include syntax-highlighted code blocks.
-</Card>
+- Creating and participating in challenges
+- Submitting entries to open challenges
+- Voting for your favorite entries
+- Connecting with other users through commenting
 
-<Card title="API documentation" icon="code" href="/api-reference/introduction">
-  Auto-generate API docs from OpenAPI specs.
-</Card>
-
-</CardGroup>
-
-<Note>
-  **Need help?** See our [full documentation](https://mintlify.com/docs) or join our [community](https://mintlify.com/community).
-</Note>
+Welcome to our community!
