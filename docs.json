@@ -16,8 +16,11 @@
           {
             "group": "Getting started",
             "pages": [
-              "index",
-              "quickstart"
+              "guides/getting-started/whats-challenge-market",
+              "guides/getting-started/how-to-signup",
+              "guides/getting-started/how-to-create-challenge",
+              "guides/getting-started/how-to-submit-entry",
+              "guides/getting-started/how-to-commit-reveal"
             ]
           }
         ]
@@ -61,16 +64,7 @@
     }
   },
   "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+    "options": []
   },
   "footer": {
     "socials": {
